@@ -1,0 +1,83 @@
+/*  navbar */
+.navbar-brand{
+	font-family: Anton;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+
+/* awal */
+.tombol{
+	text-transform: uppercase;
+	border-radius: 80px;
+}
+.jumbotron{
+	background-image: url(../img/tekno.jpg);
+	background-size: cover;
+	height: 50px;
+}
+
+/* layanan dan jasa */
+.produk h1{
+	text-transform: uppercase;
+}
+.produk hr{
+	border: 2px solid #000;
+	width: 27%;
+	margin-top: -3px;
+}
+.produk .ok{
+	margin-top: 50px;
+}
+.produk h4{
+	font-weight: bold;
+}
+.produk .icon1, .icon2, .icon3{
+	width: 330px;
+	height: 250px;
+}
+.produk .icon1{
+	margin-left: 40px;
+}
+.produk .icon2{
+	margin-left: 40px;
+}
+.produk .icon3{
+	margin-left: 40px;
+}
+.produk p{
+	width: 90%;
+	color: #666;
+	margin-left: 20px;
+}
+.produk a{
+	border-radius: 50px;
+	margin-right: 5px;
+}
+
+
+
+/* resposive desktop version */
+@media (min-width: 992px){
+	.navbar-brand ,.nav-link{
+		color: white !important;
+		text-shadow: 1px 1px 2px rgba(0,0,0, 0.7);
+	}
+	.nav-link{
+		text-transform: uppercase;
+		margin-right: 30px;
+	}
+
+	.nav-link:hover::after{
+		content: '';
+		display: block;
+		border-bottom: 3px solid #0b63dc;
+		width: 50%;
+		margin: auto;
+		padding-bottom: 5px;
+		margin-bottom: -9px;
+	}
+	.jumbotron{
+		margin-top: -125px;
+	}
+}
